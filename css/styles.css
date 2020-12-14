@@ -1,0 +1,258 @@
+/* main css */
+body,
+html {
+  height: 100%;
+  background-color: #343131;
+ font-family: 'Roboto', sans-serif;
+}
+
+section{
+ text-align: center;
+ font-family: 'Roboto';
+ color: #CFFA26;
+ margin-top: 50px;
+ width: 98%;
+ margin : auto;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3.75rem;
+  margin: 50px 0;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 50px;
+  font-family: 'Source Code Pro', 'monospace';
+  
+}
+
+p{
+  font-size: 2rem;
+}
+
+/* title */
+.bg-img {
+  background-image: url("../images/960x0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  height: 100%;
+
+}
+
+/* bootstrap changes */
+.btn-outline-light{
+  color:#CFFA26;
+  border: 0px;
+}
+
+.btn-outline-light:hover{
+  color:#343131;
+  background-color: #CFFA26;
+}
+
+/* icons */
+/* i{
+  color:#CFFA26;
+  opacity: 2;
+  font-size: 2rem;
+} */
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: #E6F8A2;
+  /* font-weight: bold; */
+  font-size : 90px;
+  font-family: 'Source Code Pro', monospace;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.me{
+  color: #CFFA26;
+  text-decoration: underline;
+}
+
+.btn-outline-warning{
+  color: #CFFA26;
+  border-color: #CFFA26;
+}
+
+.btn-outline-warning:hover{
+  background-color: #CFFA26;
+}
+
+/* projects section */
+
+/* nav{
+  position: absolute;
+}
+ */
+
+ 
+.projects{
+  height: 366px;
+  width: 500px;
+  border: #f1f1f1 solid 5px;
+  margin: 30px auto;
+  position: relative;
+  background-image: url(../images/960x0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .projects:hover{
+  background-color: rgba(207,250,38, 0.4);
+  
+} */
+
+/* for animation in projects */
+/* .img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+} */
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.8);
+  color: #CFFA26;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.projects:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.projects:hover .img__description {
+  transform: translateY(0);
+}
+
+
+.iconProject{
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+/* contact section */
+
+.box{
+  border: #f1f1f1 solid 5px;
+  padding: 10px;
+}
+
+.skill-box{
+  font-size: 2rem;
+  text-align: start;
+  padding: 50px 0 50px 50px;
+  height: 600px;
+}
+
+.skill-rating{
+  /* text-align: start; */
+}
+.skills{
+  padding: 20px 0px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  /* visibility: hidden; */
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(212, 214, 203);
+  border-radius: 10px;
+  /* visibility: hidden; */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color:rgba(207,250,38, 0.4);
+  -webkit-box-shadow: inset 0 0 6px rgba(207,250,38, 0.4);
+  /* visibility: hidden; */
+}
+
+/* for animation of projects */
+
+
+/* about */
+.about{
+  padding-left: 10px;
+}
+
+.img-me{
+  float: right;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/front.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 6px 20px 0 rgba(238, 231, 231, 0.19);
+}
+
+#myDesc{
+  text-align: start;
+  padding: 30px;
+}
+
+#social{
+  margin: 30px 0px;
+}
+
+/* get to top button */
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#toTop:hover {
+  background-color: #CFFA26;
+  color: #343131;
+}
