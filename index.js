@@ -34,7 +34,7 @@ jQuery.githubUser = function(username, callback) {
      console.log(repos);
     
      repos.forEach(tdata => {
-         $('#projectInfo').append('<div class="col-md-4 projects" id='+tdata.name+'>'+
+         $('#projectInfo').append('<div class="col-md-4 col-sm-6 projects" id='+tdata.name+'>'+
          '<div class="img__description_layer">'+
           ' <div class="img_description" id="">'+
           '<h3>'+tdata.name+'</h3>'+
