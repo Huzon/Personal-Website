@@ -34,6 +34,7 @@ jQuery.githubUser = function(username, callback) {
      console.log(repos);
     
      repos.forEach(tdata => {
+         if(tdata.name != "huzon"){
          $('#projectInfo').append('<div class="col-md-4 col-sm-6 projects" id='+tdata.name+'>'+
          '<div class="img__description_layer">'+
           ' <div class="img_description" id="">'+
@@ -45,7 +46,7 @@ jQuery.githubUser = function(username, callback) {
 
          $('#'+tdata.name).css({'background-image':'url(./images/projects/'+tdata.name+'.png)', 'background-size':'cover', 'background-position': 'center', 'background-repeat': 'no-repeat'});
          
-         console.log(tdata.name);
+         console.log(tdata.name);}
      });
    });
 //    background-position: center;
