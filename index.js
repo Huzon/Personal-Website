@@ -5,6 +5,7 @@ rating("java", 6);
 rating("htmlcss", 7);
 rating("js",8);
 rating("nodejs", 6);
+rating("php",8);
 rating("jquery", 8);
 rating("python", 4);
 rating("mysql", 9);
@@ -16,6 +17,9 @@ function rating(cls,rating){
     for(var i = 1; i<=rating; i++){
         $("#"+cls).append('<i class="fa fa-star" aria-hidden="true"></i>');
     }
+    for(var i = rating; i<10; i++){
+        $("#"+cls).append('<i class="fa fa-star dim" aria-hidden="true"></i>');
+    }
 }
 
 // appending projects
@@ -25,7 +29,7 @@ var project = '<div class="col-md-4 projects">'+
   '</div>';
 
 jQuery.githubUser = function(username, callback) {
-    jQuery.getJSON('https://api.github.com/users/'+'huzon'+'/repos?callback=?',callback)
+    jQuery.getJSON('https://api.github.com/users/'+'huzon'+'/repos?callback=?',callback);
  }
 
  var target = this;
@@ -40,7 +44,8 @@ jQuery.githubUser = function(username, callback) {
           ' <div class="img_description" id="">'+
           '<h3>'+tdata.name+'</h3>'+
           '<p>'+tdata.description+'</p>'+
-          '<a name="" id="" class="btn btn-outline btn-large" href="'+tdata.html_url+'" role="button"><i class="fab fa-github iconProject" aria-hidden="true"></i></a>'+
+          '<a class="btn btn-outline-dark btn-large" target="_blank" href="'+tdata.html_url+'" role="button"><i class="fab fa-github iconProject" aria-hidden="true"></i></a>'+
+          '<a class="btn btn-outline-dark btn-large" target="_blank" href="https://huzon.github.io/'+tdata.name+'" role="button"><i class="fab fa-chrome iconProject" aria-hidden="true"></i></a>'+
           '</div>'+
          '</div>');
 
