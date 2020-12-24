@@ -289,11 +289,11 @@ table{
 }
 
 @media(max-width: 767px){
-  .projectImg {
+  /* .projectImg {
     width: 200px;
     height: 200px;
     margin: 20px auto;
-  }
+  } */
  
   .projectIcon{
     font-size: 30px;

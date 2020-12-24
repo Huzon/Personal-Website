@@ -49,7 +49,7 @@ var projects = [
 console.log(projects.length);
 projects.forEach(project => {
     console.log(project.name);
-    $('.projectData').append('<div class="col-md-4 col-sm-6">'+
+    $('.projectData').append('<div class="col-md-4">'+
     '<div class="projectImg" id="'+project.name+'">'+
         '<div class="img__description_layer">'+
         '<div class="img_description" id="">'+
