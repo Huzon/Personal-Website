@@ -16,7 +16,6 @@ h2{
   font-family: 'Pangolin', cursive;
 }
 
-<<<<<<< HEAD
 h3{
   font-family: 'Merriweather', serif;
   font-size: 30px;
@@ -29,19 +28,6 @@ p{
 
 nav{
   margin-bottom: 5%;
-=======
-section{
- text-align: center;
- font-family: 'Roboto';
- color: #CFFA26;
- margin-top: 50px;
- width: 98%;
- margin : auto;
-}
-
-h1{
-  font-size: 4rem;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 section{
@@ -50,7 +36,6 @@ section{
   /* padding: 0 15%; */
 }
 
-<<<<<<< HEAD
 table{
   display: inline;
   /* width: auto; */
@@ -61,13 +46,6 @@ table{
 .btn-outline-dark{
   color: #E63946;
   border: #E63946 1px solid;
-=======
-h2{
-  font-size: 3.75rem;
-  margin: 50px 0;
-  font-family: 'Source Code Pro', monospace;
-  font-weight: bold;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .btn-outline-dark:hover{
@@ -82,7 +60,6 @@ h2{
   font-size: 30px;
 }
 
-<<<<<<< HEAD
 .btn-primary{
   background-color: #A8DADC;
   color: #1D3557;
@@ -92,15 +69,6 @@ h2{
 .btn-primary:hover{
   background-color: #1D3557;
   color: #E63946;
-=======
-hr{
-  border-top: 10px #f1f1f1 solid;
-  border-style: dotted;
-  width: 50%;
-  margin: 50px auto;
-  color: #343131;
-  
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .btn-dark{
@@ -113,7 +81,6 @@ hr{
   color: #1D3557;
 }
 
-<<<<<<< HEAD
 .btn-light{
   background-color: transparent;
   border: 0;
@@ -124,22 +91,11 @@ hr{
   color: #E63946;
 }
 
-=======
-/* title */
-.bg-img {
-  background-image: url("../images/960x0.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.3;
-  height: 100%;
->>>>>>> parent of 7b83e1a... color scheme changes
 
 .slideShow{
   height: 500px;
 }
 
-<<<<<<< HEAD
 .nav-link{
   color: #FFF;
 }
@@ -193,56 +149,6 @@ hr{
 
 .infoMe{
   margin-top: 20%;
-=======
-/* bootstrap changes */
-.btn-outline-light{
-  color:#CFFA26;
-  border: 0px;
-}
-
-.btn-outline-light:hover{
-  color:#343131;
-  background-color: #CFFA26;
-}
-
-/* icons */
-/* i{
-  color:#CFFA26;
-  opacity: 2;
-  font-size: 2rem;
-} */
-
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: #E6F8A2;
-  /* font-weight: bold; */
-  font-size : 90px;
-  font-family: 'Source Code Pro', monospace;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-
-.me{
-  color: #CFFA26;
-  text-decoration: underline;
-}
-
-.btn-outline-warning{
-  color: #CFFA26;
-  border-color: #CFFA26;
-}
-
-.btn-outline-warning:hover{
-  background-color: #CFFA26;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .name{
@@ -275,7 +181,6 @@ hr{
   
 }
 
-<<<<<<< HEAD
 /************************************* Skills section *************************************/
 
 
@@ -296,19 +201,6 @@ hr{
   width: 20%;
   float: right;
   margin-left: 30px;
-=======
- 
-.projects{
-  height: 366px;
-  width: 500px;
-  border: #f1f1f1 solid 5px;
-  margin: 30px auto;
-  position: relative;
-  background-image: url(../images/960x0.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .skillTitle{
@@ -351,13 +243,8 @@ hr{
   bottom: 0;
   left: 0;
   right: 0;
-<<<<<<< HEAD
   background: rgba(168, 218, 220, 0.9);
   /* color: #682c0e; */
-=======
-  background: rgba(0,0,0, 0.8);
-  color: #CFFA26;
->>>>>>> parent of 7b83e1a... color scheme changes
   visibility: hidden;
   opacity: 0;
   display: flex;
@@ -387,14 +274,8 @@ hr{
   color: #E63946;
 }
 
-<<<<<<< HEAD
 .projectDesc{
   color: #1D3557;
-=======
-.iconProject{
-  font-size: 2rem;
-  color: #fff;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .projectIcon{
@@ -405,7 +286,6 @@ hr{
 .noBorder{
   border: 0;
 
-<<<<<<< HEAD
 }
 
 @media(max-width: 767px){
@@ -419,11 +299,6 @@ hr{
     font-size: 30px;
     
   }
-=======
-.box{
-  border: #f1f1f1 solid 5px;
-  padding: 10px;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 /* ************************ Contact ********************* */
@@ -432,7 +307,6 @@ hr{
   padding: 3% 0;
   margin-bottom: 0;
 }
-<<<<<<< HEAD
 .contact{
   
   width: 60%;
@@ -458,20 +332,6 @@ hr{
 .form-group{
   margin: 0;
   
-=======
-
-.skill-rating{
-  /* text-align: start; */
-}
-.skills{
-  padding: 20px 0px;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-  /* visibility: hidden; */
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .input{
@@ -486,7 +346,6 @@ hr{
   
 }
 
-<<<<<<< HEAD
 .input:focus{
   background-color: #1D3557;
   color: #A8DADC;
@@ -494,13 +353,6 @@ hr{
   border-radius: 0;
   outline: none;
   
-=======
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color:rgba(207,250,38, 0.4);
-  -webkit-box-shadow: inset 0 0 6px rgba(207,250,38, 0.4);
-  /* visibility: hidden; */
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 .input::placeholder{
@@ -515,21 +367,9 @@ hr{
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
 .footer{
   width: 50%;
   margin: 0 auto;
-=======
-.img-me{
-  margin: auto;
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/front.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 6px 20px 0 rgba(238, 231, 231, 0.19);
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 @media(max-width: 768px){
   .footer{
@@ -550,16 +390,11 @@ hr{
 
 }
 
-<<<<<<< HEAD
 .copyright{
   color: #E63946;
 }
 .credit{
   color:#727983;
-=======
-#social{
-  margin: 30px 0px;
->>>>>>> parent of 7b83e1a... color scheme changes
 }
 
 
@@ -581,13 +416,7 @@ hr{
   border-radius: 4px;
 }
 #toTop:hover {
-<<<<<<< HEAD
   background-color: #000;
   color: #A8DADC;
 }
 
-=======
-  background-color: #CFFA26;
-  color: #343131;
-}
->>>>>>> parent of 7b83e1a... color scheme changes
