@@ -1,189 +1,180 @@
+/*********************************** Colors ***********************************/
 /*********************************** element ***********************************/
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h1{
-  font-family: 'Merriweather', serif;
+h1 {
+  font-family: "Roboto", serif;
   font-size: 100px;
   color: #1D3557;
 }
 
-h2{
+h2 {
   color: #1D3557;
   font-size: 90px;
   /* font-family: 'Russo One', sans-serif; */
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
 }
 
-h3{
-  font-family: 'Merriweather', serif;
+h3 {
+  font-family: "Roboto", serif;
   font-size: 30px;
 }
 
-p{
+p {
   font-size: 20px;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
 }
 
-nav{
+nav {
   margin-bottom: 5%;
 }
 
-section{
+section {
   text-align: center;
   margin-bottom: 50px;
   /* padding: 0 15%; */
 }
 
-table{
+table {
   display: inline;
   /* width: auto; */
 }
 
 /*********************************** Bootstrap ***********************************/
-
-.btn-outline-dark{
+.btn-outline-dark {
   color: #E63946;
   border: #E63946 1px solid;
 }
 
-.btn-outline-dark:hover{
+.btn-outline-dark:hover {
   background-color: #E63946;
   border: #E63946 1px solid;
   color: #A8DADC;
-  
 }
 
-.btn-large{
+.btn-large {
   width: 100%;
   font-size: 30px;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #A8DADC;
   color: #1D3557;
   border: 0;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #1D3557;
   color: #E63946;
 }
 
-.btn-dark{
+.btn-dark {
   background-color: transparent;
   border: 0;
   color: #E63946;
 }
-.btn-dark:hover{
+
+.btn-dark:hover {
   background-color: transparent;
   color: #1D3557;
 }
 
-.btn-light{
+.btn-light {
   background-color: transparent;
   border: 0;
   color: #A8DADC;
 }
-.btn-light:hover{
+
+.btn-light:hover {
   background-color: transparent;
   color: #E63946;
 }
 
-
-.slideShow{
+.slideShow {
   height: 500px;
 }
 
-.nav-link{
+.nav-link {
   color: #FFF;
 }
 
-.ctBtn{
+.ctBtn {
   margin: auto 20px;
 }
 
-.nav-item{
+.nav-item {
   font-size: 2rem;
 }
 
-.someBtn{
-  margin : auto 0;
+.someBtn {
+  margin: auto 0;
 }
 
-.container-fluid{
-  padding:0 15% 5px; 
+.container-fluid {
+  padding: 0 15% 5px;
 }
 
-.col{
+.col {
   display: inline;
 }
 
 /************************************ TITLE section ************************************/
-
-
-#title{
+#title {
   background-color: #A8DADC;
-  color: white;
+  color: #fff;
   text-align: left;
-  
 }
 
-.brand{
+.brand {
   width: 100px;
   height: 100px;
 }
-.brandTitle{
+
+.brandTitle {
   display: none;
 }
 
-.ml-auto{
+.ml-auto {
   margin-left: auto;
 }
 
-.btnRound{
+.btnRound {
   border-radius: 20px;
-
 }
 
-.infoMe{
+.infoMe {
   margin-top: 20%;
 }
 
-.name{
-  font-family: 'Pangolin', cursive;
+.name {
+  font-family: "Pangolin", cursive;
   color: #E63946;
 }
-.meDesc{
-  font-family: 'Roboto', sans-serif;
+
+.meDesc {
+  font-family: "Roboto", sans-serif;
   font-size: 50px;
   color: #1D3557;
   line-height: 1.6;
 }
 
-@media(max-width: 768px){
-  
-
-  h1{
-    font-size:60px
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
   }
 
-  .meDesc{
+  .meDesc {
     font-size: 30px;
   }
 
-  .brand{
+  .brand {
     width: 75px;
     height: 75px;
   }
-
-  
 }
-
 /************************************* Skills section *************************************/
-
-
 .skill-row {
   margin: 50px auto;
   /* width: 50%; */
@@ -197,30 +188,30 @@ table{
   width: 20%;
   margin-right: 30px;
 }
+
 .skill-img2 {
   width: 20%;
   float: right;
   margin-left: 30px;
 }
 
-.skillTitle{
+.skillTitle {
   color: #E63946;
+  font-weight: bold;
 }
+
 /* 
 .img{
   height: auto;
 } */
-
 /************************************* projects section *************************************/
-#projects{
+#projects {
   background-color: #A8DADC;
   padding: 3% 0px;
   margin-bottom: 0;
 }
 
-
-
-.projectImg{
+.projectImg {
   width: 300px;
   height: 300px;
   /* background-image: url("../images/projects/drumSet.png"); */
@@ -233,8 +224,6 @@ table{
   margin: 30px auto;
   border-radius: 10px;
 }
-
-
 
 .img__description_layer {
   position: absolute;
@@ -250,9 +239,8 @@ table{
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  transition: opacity 0.2s, visibility 0.2s;
 }
 
 .projectImg:hover .img__description_layer {
@@ -261,7 +249,7 @@ table{
 }
 
 .img__description {
-  transition: .2s;
+  transition: 0.2s;
   transform: translateY(1em);
 }
 
@@ -269,94 +257,87 @@ table{
   transform: translateY(0);
 }
 
-.projectTitle{
+.projectTitle {
   color: #E63946;
   margin-bottom: 30px;
   font-size: 18px;
+  font-weight: bold;
 }
 
-.projectDesc{
+.projectDesc {
   color: #1D3557;
   font-weight: bold;
   font-size: 14px;
   padding: 20px;
-  text-align: center
+  text-align: center;
 }
 
-.projectIcon{
+.projectIcon {
   font-size: 30px;
-  margin:  5% 3% ;
+  margin: 5% 3%;
 }
 
-.techs{
+.techs {
   display: flex;
   width: 100%;
   justify-content: center;
   column-gap: 10px;
   row-gap: 10px;
-  
 }
-.tech{
+
+.tech {
   font-size: 10px;
   padding: 3px;
   background-color: #E63946;
-  color: white;
+  color: #fff;
   border-radius: 5px;
-
 }
 
-.noBorder{
+.noBorder {
   border: 0;
-
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
   /* .projectImg {
     width: 200px;
     height: 200px;
     margin: 20px auto;
   } */
- 
-  .projectIcon{
+  .projectIcon {
     font-size: 30px;
-    
   }
 }
-
 /* ************************ Contact ********************* */
-#contact{
+#contact {
   background-color: #E63946;
   padding: 3% 0;
   margin-bottom: 0;
 }
-.contact{
-  
+
+.contact {
   width: 60%;
   margin: 5% auto;
-  
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .contact {
     width: 100%;
   }
 }
-
-.contactForm{
-  border: 1px solid black;
+.contactForm {
+  border: 1px solid #000;
 }
 
-.contactText{
+.contactText {
   margin-top: 5%;
   color: #fff;
 }
 
-.form-group{
+.form-group {
   margin: 0;
-  
 }
 
-.input{
+.input {
   background-color: #1D3557;
   border: 0;
   width: 100%;
@@ -365,61 +346,56 @@ table{
   padding: 0 3%;
   border-radius: 0;
   margin: 2px 0;
-  
 }
 
-.input:focus{
+.input:focus {
   background-color: #1D3557;
   color: #A8DADC;
   border: 0;
   border-radius: 0;
   outline: none;
-  
 }
 
-.input::placeholder{
+.input::placeholder {
   color: lightgray;
 }
 
-
 /* foooter */
-#footer{
+#footer {
   background-color: #1D3557;
   padding: 2%;
   margin-bottom: 0;
 }
 
-.footer{
+.footer {
   width: 50%;
   margin: 0 auto;
 }
-@media(max-width: 768px){
-  .footer{
+
+@media (max-width: 768px) {
+  .footer {
     width: 100%;
   }
 
-  #footer .container-fluid{
+  #footer .container-fluid {
     padding: 0 0;
   }
 
-  .col{
+  .col {
     padding: 0;
   }
 
-  .col h3{
+  .col h3 {
     font-size: 20px;
   }
-
 }
-
-.copyright{
+.copyright {
   color: #E63946;
 }
-.credit{
-  color:#727983;
+
+.credit {
+  color: #727983;
 }
-
-
 
 /* to top button */
 #toTop {
@@ -437,8 +413,42 @@ table{
   padding: 15px;
   border-radius: 4px;
 }
+
 #toTop:hover {
   background-color: #000;
   color: #A8DADC;
 }
 
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #1D3557;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #1D3557;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
