@@ -218,9 +218,7 @@ table{
   margin-bottom: 0;
 }
 
-.projectTitle{
-  margin-bottom: 30px;
-}
+
 
 .projectImg{
   width: 300px;
@@ -228,9 +226,10 @@ table{
   /* background-image: url("../images/projects/drumSet.png"); */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  /* background-color: #A8DAE5; */
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.66);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   margin: 30px auto;
   border-radius: 10px;
 }
@@ -272,15 +271,38 @@ table{
 
 .projectTitle{
   color: #E63946;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .projectDesc{
   color: #1D3557;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center
 }
 
 .projectIcon{
-  font-size: 40px;
+  font-size: 30px;
   margin:  5% 3% ;
+}
+
+.techs{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+.tech{
+  font-size: 10px;
+  padding: 3px;
+  background-color: #E63946;
+  color: white;
+  border-radius: 5px;
+
 }
 
 .noBorder{
