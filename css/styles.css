@@ -3,217 +3,129 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #272727;
+  font-family: "Saira";
+}
+
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: "Averia Serif Libre", cursive;
   font-size: 100px;
-  color: #1D3557;
+  color: #FFE400;
 }
 
 h2 {
-  color: #1D3557;
-  font-size: 90px;
-  /* font-family: 'Russo One', sans-serif; */
-  font-family: "Pangolin", cursive;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 70px;
+  color: #FFE400;
 }
 
 h3 {
-  font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: Saira;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 63px;
 }
 
-p {
+h6 {
   font-size: 20px;
-  font-family: "Roboto", serif;
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  color: #E5E5E5;
 }
 
-nav {
-  margin-bottom: 5%;
+.bold {
+  font-weight: bold;
 }
 
-section {
-  text-align: center;
-  margin-bottom: 50px;
-  /* padding: 0 15%; */
+.yellow {
+  color: #FFE400;
 }
 
-table {
-  display: inline;
-  /* width: auto; */
+.green {
+  color: #14A76C;
 }
 
-/*********************************** Bootstrap ***********************************/
-.btn-outline-dark {
-  color: #E63946;
-  border: #E63946 1px solid;
+#main {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
 }
 
-.btn-outline-dark:hover {
-  background-color: #E63946;
-  border: #E63946 1px solid;
-  color: #A8DADC;
+.common-flex {
+  display: flex;
 }
 
-.btn-large {
-  width: 100%;
-  font-size: 30px;
-}
-
-.btn-primary {
-  background-color: #A8DADC;
-  color: #1D3557;
-  border: 0;
-}
-
-.btn-primary:hover {
-  background-color: #1D3557;
-  color: #E63946;
-}
-
-.btn-dark {
-  background-color: transparent;
-  border: 0;
-  color: #E63946;
-}
-
-.btn-dark:hover {
-  background-color: transparent;
-  color: #1D3557;
-}
-
-.btn-light {
-  background-color: transparent;
-  border: 0;
-  color: #A8DADC;
-}
-
-.btn-light:hover {
-  background-color: transparent;
-  color: #E63946;
-}
-
-.slideShow {
-  height: 500px;
-}
-
-.nav-link {
-  color: #FFF;
-}
-
-.ctBtn {
-  margin: auto 20px;
-}
-
-.nav-item {
-  font-size: 2rem;
-}
-
-.someBtn {
-  margin: auto 0;
-}
-
-.container-fluid {
-  padding: 0 15% 5px;
-}
-
-.col {
-  display: inline;
-}
-
-/************************************ TITLE section ************************************/
 #title {
-  background-color: #A8DADC;
-  color: white;
-  text-align: left;
+  color: #FF652F;
+}
+#title img {
+  height: 486px;
+  width: 486px;
 }
 
-.brand {
-  width: 100px;
-  height: 100px;
+#skills .box {
+  height: 442px;
+  width: 290px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+#skills .box img {
+  width: 200px;
+  height: 125px;
+}
+#skills .box .text {
+  text-align: start;
+  color: #E5E5E5;
+  margin-top: 60px;
+}
+#skills .box .text ul {
+  padding: 20px;
+}
+#skills .shadowY {
+  border: 1px solid #FFE400;
+  box-sizing: border-box;
+  box-shadow: -1px -1px 10px 1px #FFE400;
+}
+#skills .shadowG {
+  border: 1px solid #14A76C;
+  box-sizing: border-box;
+  box-shadow: -1px -1px 10px 1px #14A76C;
+}
+#skills .shadowO {
+  border: 1px solid #FF652F;
+  box-sizing: border-box;
+  box-shadow: -1px -1px 10px 1px #FF652F;
+}
+#skills .bottom {
+  align-self: end;
 }
 
-.brandTitle {
-  display: none;
+.project-items {
+  display: flex;
+  justify-content: space-between;
 }
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.btnRound {
-  border-radius: 20px;
-}
-
-.infoMe {
-  margin-top: 20%;
-}
-
-.name {
-  font-family: "Pangolin", cursive;
-  color: #E63946;
-}
-
-.meDesc {
-  font-family: "Roboto", sans-serif;
-  font-size: 50px;
-  color: #1D3557;
-  line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 60px;
-  }
-
-  .meDesc {
-    font-size: 30px;
-  }
-
-  .brand {
-    width: 75px;
-    height: 75px;
-  }
-}
-/************************************* Skills section *************************************/
-.skill-row {
-  margin: 50px auto;
-  /* width: 50%; */
-  text-align: left;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.skill-img1 {
-  float: left;
-  width: 20%;
-  margin-right: 30px;
-}
-
-.skill-img2 {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.skillTitle {
-  color: #E63946;
-}
-
-/* 
-.img{
-  height: auto;
-} */
-/************************************* projects section *************************************/
-#projects {
-  background-color: #A8DADC;
-  padding: 3% 0px;
-  margin-bottom: 0;
+.project-items .item {
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
 }
 
 .projectTitle {
   margin-bottom: 30px;
 }
 
+.projectTitleOnly {
+  margin-bottom: 30px;
+  align-self: flex-end;
+}
+
 .projectImg {
+  display: flex;
+  justify-content: center;
   width: 300px;
   height: 300px;
   /* background-image: url("../images/projects/drumSet.png"); */
@@ -232,8 +144,7 @@ table {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(168, 218, 220, 0.9);
-  /* color: #682c0e; */
+  padding: 10px;
   visibility: hidden;
   opacity: 0;
   display: flex;
@@ -244,14 +155,15 @@ table {
   transition: opacity 0.2s, visibility 0.2s;
 }
 
+.projectImg:hover .projectTitleOnly {
+  display: none;
+}
+
 .projectImg:hover .img__description_layer {
   visibility: visible;
   opacity: 1;
-}
-
-.img__description {
-  transition: 0.2s;
-  transform: translateY(1em);
+  transition: 0.5s;
+  transform: translatey(-1em);
 }
 
 .projectImg:hover .img__description {
@@ -259,16 +171,18 @@ table {
 }
 
 .projectTitle {
-  color: #E63946;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .projectDesc {
-  color: #1D3557;
+  color: #E5E5E5;
 }
 
 .projectIcon {
   font-size: 40px;
   margin: 5% 3%;
+  color: #E5E5E5;
 }
 
 .noBorder {
@@ -285,116 +199,42 @@ table {
     font-size: 30px;
   }
 }
-/* ************************ Contact ********************* */
-#contact {
-  background-color: #E63946;
-  padding: 3% 0;
-  margin-bottom: 0;
+.project-websites .project-items .item {
+  border: 3px solid #FFE400;
+  color: #FFE400;
+  box-sizing: border-box;
+}
+.project-websites .projectTitleOnly {
+  color: #FFE400;
+}
+.project-websites .projectImg:hover {
+  border: 5px solid #FFE400;
+  box-shadow: 0 4px 8px 0 #ffe400, 0 6px 20px 0 rgba(255, 228, 0, 0.66);
+}
+.project-websites .projectTitle {
+  color: #FFE400;
+}
+.project-websites .projectIcon:hover {
+  color: #FFE400;
 }
 
-.contact {
-  width: 60%;
-  margin: 5% auto;
+.project-apps .project-items .item {
+  border: 3px solid #14A76C;
+  color: #14A76C;
+  box-sizing: border-box;
 }
-
-@media (max-width: 767px) {
-  .contact {
-    width: 100%;
-  }
+.project-apps .projectTitleOnly {
+  color: #14A76C;
 }
-.contactForm {
-  border: 1px solid black;
+.project-apps .projectImg:hover {
+  border: 5px solid #14A76C;
+  box-shadow: 0 4px 8px 0 #14a76c, 0 6px 20px 0 rgba(20, 167, 108, 0.66);
 }
-
-.contactText {
-  margin-top: 5%;
-  color: #fff;
+.project-apps .projectTitle {
+  color: #14A76C;
 }
-
-.form-group {
-  margin: 0;
-}
-
-.input {
-  background-color: #1D3557;
-  border: 0;
-  width: 100%;
-  font-size: 20px;
-  color: #A8DADC;
-  padding: 0 3%;
-  border-radius: 0;
-  margin: 2px 0;
-}
-
-.input:focus {
-  background-color: #1D3557;
-  color: #A8DADC;
-  border: 0;
-  border-radius: 0;
-  outline: none;
-}
-
-.input::placeholder {
-  color: lightgray;
-}
-
-/* foooter */
-#footer {
-  background-color: #1D3557;
-  padding: 2%;
-  margin-bottom: 0;
-}
-
-.footer {
-  width: 50%;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .footer {
-    width: 100%;
-  }
-
-  #footer .container-fluid {
-    padding: 0 0;
-  }
-
-  .col {
-    padding: 0;
-  }
-
-  .col h3 {
-    font-size: 20px;
-  }
-}
-.copyright {
-  color: #E63946;
-}
-
-.credit {
-  color: #727983;
-}
-
-/* to top button */
-#toTop {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #555;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#toTop:hover {
-  background-color: #000;
-  color: #A8DADC;
+.project-apps .projectIcon:hover {
+  color: #14A76C;
 }
 
 /*# sourceMappingURL=styles.css.map */

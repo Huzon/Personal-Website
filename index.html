@@ -10,15 +10,20 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
+        gtag("js", new Date());
 
-        gtag('config', 'G-G846HD8KVV');
+        gtag("config", "G-G846HD8KVV");
     </script>
     <title>Hozefa's Website</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Saira:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -28,282 +33,79 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link rel="icon" href="./images/figma/HuzonIconFIg.svg" type="image/icon type">
-
+    <link rel="icon" href="./images/figma/HuzonIconFIg.svg" type="image/icon type" />
 </head>
 
 <body>
-    <section id="title">
-        <div class="container-fluid">
-            <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="">
-                    <img src="./images/figma/HuzonIconFIg.svg" class="brand d-inline-block align-top" alt="" />
-                    <h2 class="brandTitle">Huzon</h2>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggle" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-                <div class="collapse navbar-collapse" id="nav-toggle">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item ctBtn">
-                            <a class="btn btn-large btn-outline-dark btnRound" style="font-size: 2rem" href="#contact">Contact me</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <!-- title  -->
-        <div class="row">
-          <div class="col-md-4">
-            <img
-              src="./images/figma/IMG_20191221_153051.png"
-              alt=""
-              srcset=""
-              class="meImg"
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="infoMe">
-              <h1>Hey, I'm <span class="name">Hozefa</span></h1>
-              <p class="meDesc">
-                Web and Mobile application Developer who loves to take a problem
-                and provide beautiful and optimized solutions for them.
-              </p>
+    <div id="main">
+        <section id="title">
+            <div class="title-text">
+                <h1>Hello</h1>
+                <h2>It's Huzefa</h2>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills">
-      <div class="container-fluid">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <div class="img"><img class="skill-img1" src="images/figma/smartphone.svg" alt="" /></div>
-        <h3 class="skillTitle">Mobile Dev</h3>
-        <p class="skill-desc1">
-          I love creating beautiful and functional mobile applications. 
-          I build hybrid applications which work on IOS and Android.
-        </p>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Language</th>
-              <th scope="col">SDK</th>
-              <th scope="col">OS</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Dart</td>
-              <td>Flutter</td>
-              <td>IOS/Android</td>
-            </tr>
-            <tr>
-              <td>Java/Kotlin</td>
-              <td>Android</td>
-              <td>Android</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img2" src="images/figma/code2.svg" alt="website developer" />
-        <h3 class="skillTitle">Web Dev</h3>
-        <p class="skill-desc2">
-          I will take your ideas and put them into a responsive and optimized website
-          or you can leave it to me to create a beautiful website. And they wont just be
-          beautiful but functional according to your needs as well as handling the APIs.
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Skill</th>
-                <th scope="col">Use</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>HTML/CSS</td>
-                <td>Backbone of web development</td>
-              </tr>
-              <tr>
-                <td>BootStrap</td>
-                <td>Designing responsive websites</td>
-              </tr>
-              <tr>
-                <td>PHP</td>
-                <td>Scripting langauge for web Development</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>Handling the functionality</td>
-              </tr>
-              <tr>
-                <td>Node.js</td>
-                <td>Running JS on servers</td>
-              </tr>
-              <tr>
-                <td>Express.js</td>
-                <td>Framework for Node.js. Standard server framework</td>
-              </tr>
-            </tbody>
-          </table>
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img1" src="images/figma/code2.svg" alt="website developer" />
-        <h3 class="skillTitle">Database Dev</h3>
-        <p class="skill-desc1">
-          Creating and handling databases is where the real functions of any applications show.
-          Leave it to me to create handlable and easy to understand as well as using those databases
-          for the applications created.
-
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">DataBase</th>
-                <th scope="col">Type</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Mysql</td>
-                <td>Relational DataBase system</td>
-              </tr>
-              <tr>
-                <td>MongoDB</td>
-                <td>NoSQL Database</td>
-              </tr>
-              <tr>
-                <td>FireBase</td>
-                <td>Realtime cloudhosted NoSql Database</td>
-              </tr>
-            </tbody>
-          </table>
-        </p>
-      </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-    <section id="projects">
-      <div class="container-fluid">
-        <h2>Projects</h2>
-
-        <div class="projectData row">
-          <!-- <div class="col-md-4">
-            <div class="projectImg">
-              <div class="img__description_layer">
-                <div class="img_description" id="">
-                  <h3 class="projectTitle">Project Title</h3>
-                  <p class="projectDesc">
-                    lorem ipsum kem cho mara bhai sab majama?
-                  </p>
-                  <a class="btn btn-outline-dark noBorder" href="#">
-                    <i class="fab fa-chrome projectIcon" aria-hidden="true"></i>
-                  </a>
-                            <a class="btn btn-outline-dark noBorder" href="#">
-                                <i class="fab fa-github projectIcon" aria-hidden="true"></i>
-                            </a>
+            <div></div>
+            <div style="display: flex; justify-content: space-between">
+                <img src="images/MEoutlinedsvg1.svg" alt="" />
+                <div style="width: 650px; background-color: #343434; padding: 10px">
+                    <h3>
+                        A Web and Mobile application Developer who loves to take a problem and provide beautiful and optimized solutions for them.
+                    </h3>
                 </div>
-        </div>
-        </div> -->
-        </div>
-        <a class="btn btn-outline-dark btn-large someBtn" href="https://github.com/huzon">View All Projects</a>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container-fluid">
-            <h2>Contact</h2>
-            <h3 class="contactText">Have a question or want to work together</h3>
-
-            <div class="contact">
-
-                <form name="contact" method="POST" data-netlify="true">
-                    <div class="form-group">
-
-                        <input class="input" type="text" name="name" id="name" placeholder="name">
-                    </div>
-                    <div class="form-group">
-
-                        <input class="input" type="email" name="email" id="email" placeholder="enter email">
-                    </div>
-                    <div class="form-group">
-
-                        <textarea class="form-control input" id="info" name="message" rows="3" placeholder="your message"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-large btn-primary mb-2">Submit</button>
-                </form>
-
             </div>
-
-        </div>
-    </section>
-
-    <section id="footer">
-        <div class="container-fluid">
-            <div class="footer">
-                <div>
-                    <div class="col">
-                        <a class="btn btn-light" href="tel:+971522137591">
-                            <h3 class="fa fa-phone" aria-hidden="true"></h3>
-                        </a>
+        </section>
+        <section id="skills">
+            <div style="
+            display: flex;
+            height: 800px;
+            justify-content: space-between;
+            align-items: center;
+          ">
+                <div class="box shadowG">
+                    <img src="./images/icon-phonessvg.png" alt="" />
+                    <div class="text">
+                        <h6>Hybrid Mobile Apps</h6>
+                        <ul>
+                            <li>Built for iOS and Android</li>
+                            <li>Built using latest frameworks</li>
+                            <li>Fast and lag free performance</li>
+                        </ul>
                     </div>
-                    <div class="col">
-                        <a href="mailto:huzefamhd@gmail.com" class="btn btn-light">
-                            <h3 class="fa fa-envelope" aria-hidden="true"></h3>
-                        </a>
+                </div>
+                <div class="box bottom shadowY">
+                    <img src="./images/icon-backendsvg.png" alt="" />
+                    <div class="text">
+                        <h6>Hybrid Mobile Apps</h6>
+                        <ul>
+                            <li>Built for iOS and Android</li>
+                            <li>Built using latest frameworks</li>
+                            <li>Fast and lag free performance</li>
+                        </ul>
                     </div>
-                    <div class="col">
-                        <a href="https://www.linkedin.com/in/hozefa-mohammed-aa3729178/" target="_blank" class="btn btn-light">
-                            <h3 class="fab fa-linkedin " aria-hidden="true"></h3>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="https://www.instagram.com/huz_mhk/" target="_blank" class="btn btn-light">
-                            <h3 class="fab fa-instagram" aria-hidden="true"></h3>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="https://github.com/Huzon" target="_blank" class="btn btn-light">
-                            <h3 class="fab fa-github-alt" aria-hidden="true"></h3>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="https://twitter.com/Real_Huzon" target="_blank" class="btn btn-light">
-                            <h3 class="fab fa-twitter" aria-hidden="true"></h3>
-                        </a>
+                </div>
+                <div class="box shadowO">
+                    <img src="./images/icon-responsivesvg.png" alt="" />
+                    <div class="text">
+                        <h6>Hybrid Mobile Apps</h6>
+                        <ul>
+                            <li>Built for iOS and Android</li>
+                            <li>Built using latest frameworks</li>
+                            <li>Fast and lag free performance</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <button onclick="topFunction()" id="toTop" title="Go to top">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-      </button>
-        <div class="copyright">
-            created by © Hozefa Mohammed Hussain
-        </div>
-        <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </section>
+        <section id="projects">
+            <div class="project-main">
+                <h3 class="bold yellow">[Websites]</h3>
+                <div class="projectData project-websites" style="display: flex"></div>
+                <h3 class="bold green">[Websites]</h3>
+                <div class="projectData project-apps" style="display: flex"></div>
+            </div>
 
-    </section>
-
-
-
-    <button onclick="topFunction()" id="toTop" title="Go to top">
-    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-  </button>
+            <h3 class="bold green">[Applications]</h3>
+        </section>
+    </div>
 
     <!-- JS -->
 
